@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkGrey"
+    tools:context=".ListaBeleski">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/izbrisiSve"
+            android:text="Obriši sve beleške"
+            android:background="@drawable/delete_all_beleske"
+            android:textColor="@color/darkBelo"
+            android:layout_width="200dp"
+            android:layout_centerInParent="true"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/red"
+            android:drawableLeft="@drawable/trash7_24x24"
+            android:drawableTint="@color/darkBelo"
+
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/pozadinaForme"
+
+        >
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search_512x512"
+            android:tint="@color/lightGrey"
+            android:scaleType="fitXY"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/bel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@color/pozadinaForme"
+            android:hint="Pretražite beleške"
+            android:textColor="@color/lightGrey" />
+
+        <ImageButton
+        android:id="@+id/x"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/x1_512x512"
+        android:scaleType="centerCrop"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:tint="@color/lightGrey"
+        android:backgroundTint="@color/pozadinaForme"
+        />
+
+        <!--android:scaleType="fitXY"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="1.2"-->
+
+        <!--android:scaleType="fitCenter"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+
+        <!--android:scaleType="centerCrop"-->
+        <!--android:scaleX="1.3"-->
+        <!--android:scaleY="1.3"-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/poruka3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Nemate nijednu belešku."
+        android:textColor="@color/darkBelo"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/blue"/>
+
+    <ListView
+        android:id="@+id/listabeleski"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/darkBelo"
+        android:dividerHeight="1px"
+        android:layout_weight="1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/addBeleska"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/addnote_plus1_512x512"
+            android:background="@drawable/add_note_button"
+            android:tint="@color/green3"
+
+            />
+        <Button
+            android:id="@+id/export_all"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/import_export_button"
+            android:text="Export all"
+            android:backgroundTint="@color/green4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/import_note"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/import_export_button"
+            android:text="Import"
+            android:backgroundTint="@color/green4"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

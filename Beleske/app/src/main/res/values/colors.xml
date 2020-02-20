@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorNaslov">#0043A4</color>
+
+    <color name="aqua">#103268</color>
+    <color name="aqua2">#0d2b59</color>
+
+    <color name="pozadinaForme">#B1FAE0</color>
+    <color name="login">#789321</color>
+
+    <color name="bordo">#8A0101</color>
+    <color name="red">#ad0702</color>
+    <color name="lightGrey">#715C5C</color>
+    <color name="lightGrey2">#988181</color>
+    <color name="grey">#454547</color>
+    <color name="grey2">#4c4c5e</color>
+    <color name="darkGrey">#222224</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4545d1</color>
+    <color name="yellow">#f5f52c</color>
+    <color name="darkBelo">#c7c3b7</color>
+    <color name="lightBlue">#4f96ff</color>
+    <color name="green">#00cc44</color>
+    <color name="green2">#0bb068</color>
+    <color name="green3">#70A46F</color>
+    <color name="green4">#01A594</color>
+    <color name="lightblue">#9999ff</color>
+
+
+
+
+
+</resources>

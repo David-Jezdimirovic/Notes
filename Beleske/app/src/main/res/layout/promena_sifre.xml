@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkGrey"
+    >
+
+    <EditText
+        android:id="@+id/oldpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Unesite staru šifru"
+        android:background="@color/pozadinaForme"
+        android:textColor="@color/lightGrey"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        />
+
+
+
+
+        <EditText
+            android:id="@+id/newpass"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Unesite novu šifru"
+           android:background="@color/pozadinaForme"
+            android:textColor="@color/lightGrey"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+          android:textAlignment="center"
+            android:inputType="textPassword"
+            />
+
+    <!--<TextView-->
+        <!--android:id="@+id/link2"-->
+        <!--android:text="Zaboravili ste šifru? Kliknite za podsetnik."-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/aqua"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="20dp"/>-->
+
+        <Button
+            android:id="@+id/promeniSifru"
+            android:text="Promeni šifru"
+
+            android:background="@drawable/delete_all_beleske"
+            android:textColor="@color/darkBelo"
+            android:layout_width="200dp"
+            android:layout_centerInParent="true"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/update2_24x24"
+            android:drawableTint="@color/darkBelo"
+            />
+
+
+    <TextView
+        android:id="@+id/message2"
+        android:text=""
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="40dp"
+       />
+
+
+
+    <Button
+        android:id="@+id/obrisiSifru"
+        android:text="Obriši šifru"
+        android:drawableLeft="@drawable/trash_white_24x24"
+        android:drawableTint="@color/darkBelo"
+        android:background="@drawable/delete_all_beleske"
+        android:textColor="@color/darkBelo"
+        android:layout_width="200dp"
+        android:layout_centerInParent="true"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/red"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+
+</LinearLayout>

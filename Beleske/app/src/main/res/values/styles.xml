@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/aqua</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="android:windowBackground">@color/darkGrey</item>
+        <!--<item name="android:background">@color/darkGrey</item>-->
+        <item name="android:textColorPrimary">@color/darkBelo</item>
+        <item name="android:textColorSecondary">@color/lightGrey2</item>
+        <item name="android:textColorTertiary">@color/white</item>
+
+        <!--<item name="android:drawableTint" tools:targetApi="m">@color/darkBelo</item>-->
+        <!--<item name="android:tint">@color/darkBelo</item>-->
+        <item name="android:itemBackground">@color/grey</item>
+        <item name="android:textColor">@color/darkBelo</item>
+
+    </style>
+
+
+    <style name="meni" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:itemBackground">@color/grey</item>
+        <item name="android:textColor">@color/darkBelo</item>
+        <item name="android:tint">@color/darkBelo</item>
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>-->
+        <!--<item name="android:windowBackground">@color/darkGrey</item>-->
+        <!--<item name="android:textColorPrimary">@color/darkBelo</item>-->
+        <!--<item name="android:textColorSecondary">@color/lightGrey2</item>-->
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/four"
+        android:title="Sačuvaj belešku"
+        android:icon="@drawable/save_white_24x24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Menu"
+        android:icon="@drawable/menu_icon_24x24"
+        app:showAsAction="always"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/zero"
+                android:title="Lista beleški"
+                android:icon="@drawable/list_icon_white_24x24"
+                />
+            <item
+                android:id="@+id/one"
+                android:title="Dodaj belešku"
+                android:icon="@drawable/add_note_icon_white_24x24"
+                />
+            <item
+                android:id="@+id/two"
+                android:title="Promeni šifru"
+                android:icon="@drawable/key_icon5_white_24x24"
+                />
+            <item
+
+                android:id="@+id/three"
+                android:title="Podešavanja"
+                android:icon="@drawable/settings_icon_white_24x24"
+                />
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

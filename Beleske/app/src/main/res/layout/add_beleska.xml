@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkGrey"
+    >
+
+    <TextView
+        android:text="Naslov: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/lightblue"/>
+
+    <EditText android:id="@+id/naslov2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/darkBelo"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:text="Tekst: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/lightblue"/>
+
+    <com.metropolitan.beleske.LinedEditText
+        android:id="@+id/beleska2"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="top|left"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/darkBelo"
+        android:textSize="19dp"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginBottom="5dp"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/lightblue"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioCheck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:orientation="horizontal"
+
+        >
+
+        <RadioButton
+            android:id="@+id/radioUradjeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urađeno"
+            android:checked="true"
+            android:textColor="@color/darkBelo"
+            />
+
+        <RadioButton
+            android:id="@+id/radioNijeUradjeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nije urađeno"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkBelo"
+
+            />
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textColor="@color/lightblue"
+        android:text="Datum:"/>
+
+        <TextView
+        android:id="@+id/datum5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textColor="@color/lightblue"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+   </LinearLayout>
+    <!--<ImageButton-->
+        <!--android:id="@+id/save3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/save_512x512"-->
+
+        <!--/>-->
+
+
+
+
+</LinearLayout>
